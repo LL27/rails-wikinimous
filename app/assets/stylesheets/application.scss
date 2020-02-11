@@ -17,6 +17,15 @@
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+.articles {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+
 .article h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
@@ -36,7 +45,3 @@
 
 }
 
-.container {
-  width: 500px;
-  margin: 0 auto;
-}

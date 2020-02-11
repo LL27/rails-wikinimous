@@ -1,14 +1,18 @@
-<nav class="navbar navbar-light bg-light">
-  <%= link_to "New article", articles_new_path %>
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <%= link_to "Litinumous", articles_path, class: "navbar-brand" %>
+  <%= link_to "New article", articles_new_path, class: "btn btn-sm btn-outline-secondary" %>
 </nav>
-<div class="container">
-  <% @articles.each do |article| %>
-    <div class="article">
-      <h1><%= link_to article.title, article_path(article) %></h1>
-      <p><%= article.content %></p>
-    </div>
-  <% end %>
-</div>
+
+
+  <div class="articles col-sm-8 col-sm-offset-2">
+    <% @articles.each do |article| %>
+      <div class="article">
+        <h1><%= link_to article.title, article_path(article) %></h1>
+        <p><%= article.content %></p>
+      </div>
+    <% end %>
+  </div>
+
 
 
 
