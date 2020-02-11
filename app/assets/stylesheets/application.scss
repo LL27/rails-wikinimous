@@ -15,3 +15,28 @@
  */
 
 @import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+.article h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+
+
+}
+.article a {
+   color: #23527C;
+   opacity: 0.8;
+}
+.article a:hover {
+   color: #23527C;
+   opacity: 1;
+}
+.article p {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
